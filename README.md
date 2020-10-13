@@ -1,2 +1,3 @@
-# config
-Store for linxu config
+# Config
+
+Misc configuration for Linux set up
