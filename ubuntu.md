@@ -1,4 +1,5 @@
 # Install all devs packages
+
 ```
 # Misc dev:
 sudo apt install vim
@@ -14,10 +15,14 @@ sudo apt install g++
 sudo apt install cmake
 sudo apt install gdb
 ```
+
 # Install Ides
+
 https://www.jetbrains.com/clion/download/
 
 # Set up python
+
+## Prepare venv
 
 ```
 mkdir ~/venvs
@@ -28,6 +33,14 @@ source venvs/arthur/bin/activate
 pip install numpy pyarrow pandas jupyter
 ```
 
+## Start jupyter
+
+```
+mkdir -f ~/notebooks
+cd ~/notebooks
+jupyter notebook  --no-browser
+```
+
 # Set up git
 
 ```
@@ -35,7 +48,26 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
-mkdir projects
+# Set up projects
+```
+mkdir ~/projects
+```
 
-Tmux conf
+# Copy configurations
 
+
+# Install Arrow
+
+https://arrow.apache.org/install/
+
+```
+sudo apt install libsnappy-dev
+sudo apt install libbrotli-dev
+sudo apt install libssl-dev
+sudo apt install liblz4-dev
+sudo apt install libzstd-dev
+sudo apt install libgandiva-dev
+sudo apt install libre2-dev
+sudo apt install libbz2-dev
+
+```
