@@ -2,23 +2,29 @@
 
 ```
 # Misc dev:
-sudo apt install vim
-sudo apt install tmux
-sudo apt install git
-sudo apt install terminator
+sudo apt install -y vim tmux git terminator
 # Python:
-sudo apt install python3.8
-sudo apt install python3.8-dev
-sudo apt install python3.8-venv
+sudo apt install -y python3.8 python3.8-dev python3.8-venv
 # C++
-sudo apt install g++
-sudo apt install cmake
-sudo apt install gdb
+sudo apt install -y g++ cmake gdb
 ```
 
-# Install Ides
+# Install IDEs
 
 https://www.jetbrains.com/clion/download/
+https://www.jetbrains.com/pycharm/download/
+
+```bash
+mkdir -f ~/apps
+cd ~/apps
+tar xvzf <path to tar>
+```
+
+In pycharm:
+```
+Tools -> Create Command Line Launcher
+Tools -> Create Desktop Entry...
+```
 
 # Set up python
 
@@ -43,6 +49,8 @@ jupyter notebook  --no-browser
 
 # Set up git
 
+Set up ssh [key](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
 ```
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
@@ -51,23 +59,29 @@ git config --global user.name "Your Name"
 # Set up projects
 ```
 mkdir ~/projects
+git clone https://github.com/0x26res/config.git
+git clone https://github.com/0x26res/arrowgen.git
 ```
 
 # Copy configurations
 
+```
+cd ~/
+wget https://raw.githubusercontent.com/0x26res/config/main/.tmux.conf
+```
 
 # Install Arrow
 
-https://arrow.apache.org/install/
-
+[See](https://arrow.apache.org/install/). You may need the following:
 ```
-sudo apt install libsnappy-dev
-sudo apt install libbrotli-dev
-sudo apt install libssl-dev
-sudo apt install liblz4-dev
-sudo apt install libzstd-dev
-sudo apt install libgandiva-dev
-sudo apt install libre2-dev
-sudo apt install libbz2-dev
-
+sudo apt install -y libsnappy-dev libbrotli-dev libssl-dev liblz4-dev libzstd-dev libgandiva-dev libre2-dev install libbz2-dev
 ```
+
+# Install Ubuntu on DELL
+
+Go to bios menu (F2) and:
+* UEFI boot with secure boot mode disabled
+* Any SATA target disks and install media set for AHCI, without RAID
+Restart, bring boot menu (F12) and select the USB drive 
+  
+[See](https://gist.github.com/cantbewong/e2fa21603633bfe2c3a500bdcc853988)
