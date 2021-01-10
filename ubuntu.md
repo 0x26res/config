@@ -79,9 +79,15 @@ sudo apt install -y libsnappy-dev libbrotli-dev libssl-dev liblz4-dev libzstd-de
 
 # Install Ubuntu on DELL
 
+## Instal Ubuntu
+
 Go to bios menu (F2) and:
 * UEFI boot with secure boot mode disabled
 * Any SATA target disks and install media set for AHCI, without RAID
 Restart, bring boot menu (F12) and select the USB drive 
   
 [See](https://gist.github.com/cantbewong/e2fa21603633bfe2c3a500bdcc853988)
+
+## Set up drivers (for nvidia graphics only)
+
+Install invidia drivers, [see](https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/)
