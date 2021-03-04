@@ -74,7 +74,7 @@ wget https://raw.githubusercontent.com/0x26res/config/main/.tmux.conf
 
 [See](https://arrow.apache.org/install/). You may need the following:
 ```
-sudo apt install -y libsnappy-dev libbrotli-dev libssl-dev liblz4-dev libzstd-dev libgandiva-dev libre2-dev install libbz2-dev
+sudo apt install -y libsnappy-dev libbrotli-dev libssl-dev liblz4-dev libzstd-dev libre2-dev libbz2-dev
 ```
 
 # Install Ubuntu on DELL
