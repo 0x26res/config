@@ -6,7 +6,7 @@ sudo apt install -y vim tmux git terminator
 # Python:
 sudo apt install -y python3.8 python3.8-dev python3.8-venv
 # C++
-sudo apt install -y g++ cmake gdb
+sudo apt install -y g++ cmake gdb protobuf-compiler clang-format
 ```
 
 # Install IDEs
@@ -72,10 +72,7 @@ wget https://raw.githubusercontent.com/0x26res/config/main/.tmux.conf
 
 # Install Arrow
 
-[See](https://arrow.apache.org/install/). You may need the following:
-```
-sudo apt install -y libsnappy-dev libbrotli-dev libssl-dev liblz4-dev libzstd-dev libre2-dev libbz2-dev
-```
+[See](https://arrow.apache.org/install/). 
 
 # Install Ubuntu on DELL
 
