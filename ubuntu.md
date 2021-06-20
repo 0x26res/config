@@ -70,6 +70,12 @@ cd ~/
 wget https://raw.githubusercontent.com/0x26res/config/main/.tmux.conf
 ```
 
+# Protobuf
+
+To get the latest version follow instructions on:
+
+https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
+
 # Install Arrow
 
 [See](https://arrow.apache.org/install/). 
