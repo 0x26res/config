@@ -76,6 +76,8 @@ To get the latest version follow instructions on:
 
 https://github.com/protocolbuffers/protobuf/blob/master/src/README.md
 
+Then run `sudo ldconfig`
+
 # Install Arrow
 
 [See](https://arrow.apache.org/install/). 
