@@ -2,6 +2,7 @@
 
 * [Seven Implementations of Incremental](https://www.janestreet.com/tech-talks/seven-implementations-of-incremental/)
 * [Boundaries](https://www.destroyallsoftware.com/talks/boundaries)
+* [Integrated tests are a scam](https://blog.thecodewhisperer.com/permalink/integrated-tests-are-a-scam)
 
 # Blogs
 
