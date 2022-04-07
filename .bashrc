@@ -14,4 +14,4 @@ alias isodate='date --iso-8601'
 alias k9='kill -9'
 alias ports='netstat -tulpn 2> /dev/null'
 alias gco='git checkout'
-
+alias f2p='sed 's/\x01/|/g'
